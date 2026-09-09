@@ -119,6 +119,6 @@ body {
 .twitter-icon {
   width: 18px;
   height: 18px;
-  fill: currentColor; /* Forces the SVG icon to inherit white color automatically from parent button elements text rules settings */
+  fill: currentColor; /* Forces the SVG icon to
   flex-shrink: 0; 
 }    
