@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Playfair display", serif;
+  font-family: "Playfair Display", serif;
 }
 
 body {
@@ -34,20 +34,20 @@ body {
 .Quote-box h2 {
   font-size: 32px;
   margin-bottom: 40px;
-  position: relative; /* Added relative positioning context for the underline */
+  position: relative;
 }
 
 .Quote-box h2::after {
-  content: '';
+  content: "";
   width: 75px;
   height: 3px;
   border-radius: 3px;
   background: rgb(23, 124, 229);
   position: absolute;
   left: 50%;
-  bottom: -15px; /* Fixed hardcoded positional values to prevent overlapping text elements */
+  bottom: -15px;
   transform: translateX(-50%);
-} 
+}
 
 .Quote-box blockquote {
   font-size: 26px;
@@ -59,7 +59,6 @@ body {
   content: '"';
 }
 
-/* Clearfix solution so float layout doesn't break button container placement positioning structural metrics */
 .Quote-box::after {
   content: "";
   display: table;
@@ -74,7 +73,7 @@ body {
 }
 
 .author::before {
-  content: '';
+  content: "";
   width: 20px;
   height: 2px;
   background: rgb(23, 124, 229);
@@ -90,7 +89,6 @@ body {
   justify-content: center;
 }
 
-/* Shared structural elements */
 .Quote-box button {
   background: rgb(23, 124, 229);
   color: #fff;
@@ -113,12 +111,12 @@ body {
 }
 
 .btn-tweet {
-  gap: 8px; 
+  gap: 8px;
 }
 
 .twitter-icon {
   width: 18px;
   height: 18px;
-  fill: currentColor; /* Forces the SVG icon to
-  flex-shrink: 0; 
-}    
+  fill: currentColor;
+  flex-shrink: 0;
+}
