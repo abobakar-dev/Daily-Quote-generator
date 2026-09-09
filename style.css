@@ -113,12 +113,12 @@ body {
 }
 
 .btn-tweet {
-  gap: 8px; /* Adds layout padding space gap between logo and text label element blocks 
+  gap: 8px; 
 }
 
 .twitter-icon {
   width: 18px;
   height: 18px;
   fill: currentColor; /* Forces the SVG icon to inherit white color automatically from parent button elements text rules settings */
-  flex-shrink: 0; /* Prevents layout engines from accidentally scaling down, stretching, or warping graphic shapes */
+  flex-shrink: 0; 
 }    
