@@ -1,6 +1,7 @@
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
 const newQuoteBtn = document.querySelector(".btn-new");
+const tweetBtn = document.getElementById("btn-tweet");
 
 const api_url = "https://dummyjson.com/quotes/random";
 async function getquote(url) {
@@ -30,3 +31,5 @@ window.addEventListener("DOMContentLoaded", () => {
 newQuoteBtn.addEventListener("click", () => {
   getquote(api_url);
 });
+
+
