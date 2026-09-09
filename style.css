@@ -34,6 +34,7 @@ body {
 .Quote-box h2 {
   font-size: 32px;
   margin-bottom: 40px;
+  font-weight: 700;
   position: relative;
 }
 
@@ -45,13 +46,14 @@ body {
   background: rgb(23, 124, 229);
   position: absolute;
   left: 50%;
-  bottom: -15px;
+  bottom: -7px;
   transform: translateX(-50%);
 }
 
 .Quote-box blockquote {
   font-size: 26px;
   min-height: 110px;
+  font-style: normal;
 }
 
 .Quote-box blockquote::before,
@@ -110,13 +112,18 @@ body {
   opacity: 0.9;
 }
 
-.btn-tweet {
+.Quote-box .btn-tweet {
   gap: 8px;
+  background-color: #ffffff; 
+  color: #000000 ;            
+  border: 1px solid #ffffff ;  
 }
+
 
 .twitter-icon {
   width: 18px;
   height: 18px;
   fill: currentColor;
   flex-shrink: 0;
+  color: #000000;   
 }
