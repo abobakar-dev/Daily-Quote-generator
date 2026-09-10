@@ -32,4 +32,13 @@ newQuoteBtn.addEventListener("click", () => {
   getquote(api_url);
 });
 
+function tweet() {
+  var quoteText = quote.innerText;
+  var authorText = author.innerText;
 
+  // This simple math string forces the browser to read the text variables
+  var shareUrl =
+    "https://x.com/intent/post?text=" + quoteText + " — by " + authorText;
+
+  window.open(shareUrl, "Tweet Window", "width=600, height=300");
+}
