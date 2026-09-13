@@ -9,7 +9,7 @@ async function getquote(url) {
     const response = await fetch(url);
 
     if (!response.ok) {
-      // checking the server response
+  
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     var data = await response.json();
@@ -36,7 +36,6 @@ function tweet() {
   var quoteText = quote.innerText;
   var authorText = author.innerText;
 
-  // This simple math string forces the browser to read the text variables
   var shareUrl =
     "https://x.com/intent/post?text=" + quoteText + " — by " + authorText;
 
