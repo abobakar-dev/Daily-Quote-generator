@@ -39,5 +39,5 @@ function tweet() {
   var shareUrl =
     "https://x.com/intent/post?text=" + quoteText + " — by " + authorText;
 
-  window.open(shareUrl, "Tweet Window", "width=600, height=300");
+  window.open(shareUrl, "Tweet Window", "width=600, height=301");
 }
